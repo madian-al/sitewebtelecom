@@ -7,6 +7,7 @@
    font-size: 16px;
    display:block;
     position: fixed;
+    text-align:center
 }
 
 #menu ul li {
@@ -25,6 +26,13 @@
 	height: 150px;
 }
 
-#presentation{
-	cixplqy:inlind
+
+
+#telecom{
+	width:100px;
+	height:100px;
+}
+#orange{
+	width:100px;
+	height:100px;
 }
