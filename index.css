@@ -1,5 +1,30 @@
 #menu{
-	background-color:red;
-	width:100px;
-	height:100px;
+	float: top;
+   width: 1000px;
+   text-decoration: none; 
+   font-family:  Caviar Dreams; Oswald; Museo Sans;
+   font-weight:bold; 
+   font-size: 16px;
+   display:block;
+    position: fixed;
+}
+
+#menu ul li {
+	   list-style-type:none;
+	   display:inline;
+	   font-family:  Caviar Dreams, Oswald, Museo Sans;
+}
+
+*{
+	 font-family:  Caviar Dreams, Oswald, Museo Sans;
+}
+
+#photomoi
+{
+	width: 150px;
+	height: 150px;
+}
+
+#presentation{
+	cixplqy:inlind
 }
