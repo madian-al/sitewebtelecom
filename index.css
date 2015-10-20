@@ -1,14 +1,23 @@
 #menu{
-	float: top;
-   width: 1000px;
-   text-decoration: none; 
    font-family:  Caviar Dreams; Oswald; Museo Sans;
    font-weight:bold; 
    font-size: 16px;
-   display:block;
     position: fixed;
-    text-align:center
-    	width=100%;
+    
+}
+
+p{
+	color:white;
+}
+
+
+h1{
+	color:white;
+}
+
+a{
+	text-decoration: none;
+	color:white;
 }
 
 #menu ul li {
@@ -23,22 +32,111 @@
 
 #photomoi
 {
-	width: 150px;
-	height: 150px;
+	width: 155px;
+	height: 155px;
+}
+
+section{
+
 }
 
 
 
+nav{
+
+}
+
+
+footer{
+
+}
+
+
 #telecom{
-	width:100px;
-	height:100px;
+	width:155px;
+	height:155px;
 }
 #orange{
 	width:100px;
 	height:100px;
 }
 
+#sncf{
+	width:150px;
+	height:79px;
+}
+
+
 nav{
 	width: 100%;
 	text-align:center;
+}
+
+body{
+	background-image:url(image/fond.jpg);
+	background-repeat: repeat;
+}
+
+#presentation{
+	display:block;
+}
+
+table{
+	margin:auto;
+}
+
+#twitter{
+	height: 45px;
+	width: 45px;
+	text-align:center;
+}
+
+#linkedin{
+	height: 45px;
+	width: 45px;
+	margin:auto;
+}
+
+.title {
+	
+}
+
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	border-bottom: 3px solid #ff6600;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+
+h2, h3 {
+	color: #ffffff;
+}
+
+#experiences p
+{
+	font-size:20px;
+}
+
+#experiences{
+	text-align:center;
+}
+
+img{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#social{
+	text-align:center;
+}
+
+#exorange{
+margin-right:400px;
+}
+
+#exsncf{
+margin-left:400px;
 }
