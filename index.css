@@ -133,10 +133,28 @@ img{
 	text-align:center;
 }
 
-#exorange{
+#gauche{
 margin-right:400px;
 }
 
-#exsncf{
-margin-left:400px;
+#droite{
+	margin-left:400px;
+}
+
+#apr{
+margin-right:400px;
+}
+
+#logoEC{
+width:100px;
+height:100px;
+}
+
+#logotelecom{
+width:100px;
+height:100px;
+}
+
+#formation h2{
+	text-align:center;
 }
