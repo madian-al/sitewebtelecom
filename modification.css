@@ -32,6 +32,7 @@ a{
 
 *{
 	 font-family:  Caviar Dreams, Oswald, Museo Sans;
+	 width:100%;
 }
 
 #photomoi
@@ -83,6 +84,22 @@ body{
 
 #presentation{
 	display:block;
+	width: 40%;
+	margin:auto;
+}
+
+#left{
+float:left;
+}
+
+#right{
+float:left;
+margin-left:10px;
+}
+
+#center{
+float:left;
+margin-left:10px;
 }
 
 table{
@@ -92,13 +109,11 @@ table{
 #twitter{
 	height: 45px;
 	width: 45px;
-	text-align:center;
 }
 
 #linkedin{
 	height: 45px;
 	width: 45px;
-	margin:auto;
 }
 
 .title {
@@ -128,14 +143,6 @@ h2, h3 {
 	text-align:center;
 }
 
-img{
-	margin-left:auto;
-	margin-right:auto;
-}
-
-#social{
-	text-align:center;
-}
 
 #gauche{
 margin-right:400px;
@@ -161,95 +168,4 @@ height:100px;
 
 h2{
 	text-align:center;
-}
-
-
-
-
-
-
-
-/*Version Responsive*/
-
-@media (max-width:600px) {  
-  p {
-    font-size:10px;
-  }
-
-  #menu{
-   font-size: 10px;
-}
-
-#experiences p
-{
-	font-size:10px;
-}
-
-h1 {
-	font-size: 10px;
-}
-
-h2 {
-	font-size: 10px;
-}
-table {
-	font-size: 10px;
-}
-
-#gauche{
-margin-right:0px;
-}
-
-#droite{
-	margin-left:0px;
-}
-
-
-
-#telecom{
-	width:100px;
-	height:100px;
-}
-#orange{
-	width:50px;
-	height:50px;
-}
-
-#logoEC{
-	width:50px;
-	height:50px;
-}
-
-#logotelecom{
-	width:50px;
-	height:50px;
-}
-
-
-#sncf{
-	width:60px;
-	height:40px;
-}
-#twitter{
-	height: 20px;
-	width: 20px;
-	text-align:center;
-}
-
-#linkedin{
-	height: 20px;
-	width: 20px;
-	margin:auto;
-}
-
-#photomoi
-{
-	width: 100px;
-	height: 100px;
-}
-
-#moi{
-	font-size: 8px;
-}
-
 }

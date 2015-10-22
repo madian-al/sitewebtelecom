@@ -1,17 +1,29 @@
-#menu{
+header{
    font-family:  Caviar Dreams; Oswald; Museo Sans;
    font-weight:bold; 
    font-size: 16px;
-   position:fixed;
    left:0;
-   right:0;
+   top:0;
+   width:100%;
    margin-left:auto;
    margin-right:auto;
-	padding-top: 10px;
+}
+
+.navbar navbar-default{
+	position:fixed;
+}
+
+ul {
+	padding-left: 0;
 }
 
 p{
 	color:white;
+	font-size:20px;
+}
+
+h1{
+	padding-top:3%;
 }
 
 
@@ -36,8 +48,8 @@ a{
 
 #photomoi
 {
-	width: 155px;
-	height: 155px;
+	width: 140px;
+	height: 140px;
 }
 
 section{
@@ -57,8 +69,8 @@ footer{
 
 
 #telecom{
-	width:155px;
-	height:155px;
+	width:140px;
+	height:140px;
 }
 #orange{
 	width:100px;
@@ -79,6 +91,7 @@ nav{
 body{
 	background-image:url(image/fond.jpg);
 	background-repeat: repeat;
+	position:relative;
 }
 
 #presentation{
@@ -92,13 +105,11 @@ table{
 #twitter{
 	height: 45px;
 	width: 45px;
-	text-align:center;
 }
 
 #linkedin{
 	height: 45px;
 	width: 45px;
-	margin:auto;
 }
 
 .title {
@@ -133,10 +144,6 @@ img{
 	margin-right:auto;
 }
 
-#social{
-	text-align:center;
-}
-
 #gauche{
 margin-right:400px;
 }
@@ -159,13 +166,42 @@ width:100px;
 height:100px;
 }
 
-h2{
-	text-align:center;
+.centerblock{
+
 }
 
 
+h2{
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:5%;
+}
 
+h1{
+	margin-top:5%;
+	margin-bottom:5%;
+}
 
+#im-centered { margin: auto; max-width: 300px;}
+
+@media (min-width:751px) {  
+
+	#milieu {
+		width: 37%;
+		padding-left: 0px;
+    	padding-right: 0px;
+	}
+
+	#right {
+		padding-left: 0px;
+ 	    padding-right: 0px;
+    	width: 27%;
+	}
+	.row-title {
+		padding-left: 20%;
+	}
+
+}
 
 
 
@@ -199,6 +235,11 @@ table {
 #gauche{
 margin-right:0px;
 }
+
+#gauche{
+margin:auto;
+}
+
 
 #droite{
 	margin-left:0px;
@@ -252,4 +293,10 @@ margin-right:0px;
 	font-size: 8px;
 }
 
+}
+
+
+
+.marge{
+	margin-top:2%;
 }
