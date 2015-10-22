@@ -24,3 +24,5 @@ $(document).ready(function(){
 
 	scrollNav();
 });
+
+$('#send_btn').popover({content: 'Thank You'},'click');	

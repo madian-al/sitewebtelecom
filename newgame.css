@@ -116,6 +116,12 @@ table
 	width: 45px;
 }
 
+#imgcontact
+{
+	height: 45px;
+	width: 55px;
+}
+
 .title
 {
 }
@@ -200,128 +206,21 @@ h1
 	max-width: 300px;
 }
 
-@media (min-width:751px)
-{
-	#milieu
-	{
-		width: 37%;
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-
-	#right
-	{
-		padding-left: 0px;
-		padding-right: 0px;
-		width: 27%;
-	}
-
-	.row-title
-	{
-		padding-left: 20%;
-	}
+#photodiv{
+	width: 150px;
+	height: 150px;
 }
 
-/*Version Responsive*/
-@media (max-width:600px)
-{
-	p
-	{
-		font-size:10px;
-	}
-
-	#menu
-	{
-		font-size: 10px;
-	}
-
-	#experiences p
-	{
-		font-size:10px;
-	}
-
-	h1
-	{
-		font-size: 10px;
-	}
-
-	h2
-	{
-		font-size: 10px;
-	}
-
-	table
-	{
-		font-size: 10px;
-	}
-
-	#gauche
-	{
-		margin-right:0px;
-	}
-
-	#gauche
-	{
-		margin:auto;
-	}
-
-	#droite
-	{
-		margin-left:0px;
-	}
-
-	#telecom
-	{
-		width:100px;
-		height:100px;
-	}
-
-	#orange
-	{
-		width:50px;
-		height:50px;
-	}
-
-	#logoEC
-	{
-		width:50px;
-		height:50px;
-	}
-
-	#logotelecom
-	{
-		width:50px;
-		height:50px;
-	}
-
-	#sncf
-	{
-		width:60px;
-		height:40px;
-	}
-
-	#twitter
-	{
-		height: 20px;
-		width: 20px;
-		text-align:center;
-	}
-
-	#linkedin
-	{
-		height: 20px;
-		width: 20px;
-		margin:auto;
-	}
-
-	#photomoi
-	{
-		width: 100px;
-		height: 100px;
-	}
-
-	#moi
-	{
-		font-size: 8px;
-	}
+#photodivl{
+	width: 200px;
+	height: 117px;
 }
+
+.centreint{
+	padding-top: 5%;
+}
+
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
