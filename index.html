@@ -1,281 +1,416 @@
 <!DOCTYPE html>
 <html>
 	<head>
-       <title>CV de Madian Al Abbas</title>
-       <meta charset="UTF-8"/>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- Leave those next 4 lines if you care about users using IE8 -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	   <link rel="stylesheet" type="text/css" title="Design" href="index.css" />
+		<title>CV de Madian Al Abbas</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- Leave those next 4 lines if you care about users using IE8 -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" title="Design" href="newgame.css" />
 	</head>
 	<body>
-		<header><nav id="menu">
-			<ul>
-				<li><a href="#presentation">Présentation</a></li>
-				<li><a href="#experiences">Expérience professionnelle</a></li>
-				<li><a href="#formation">Formation</a></li>
-				<li><a href="#competences">Compétences</a></li>
-				<li><a href="#interet">Centres d'intérêt</a></li>
-				<li><a href="http://www.ares-infos.org/author/madian/" target="_blank">Blog</a></li>
-				<li><a href="cvmadianalabbas.pdf">Curriculum Vitae</a></li>
-			</ul>
-		</nav>
-		</header>
-
-
- 		<div class="row">
-    		<div class="col-sm-4">
-				<img id="photomoi" src="image/madian.jpg"/>
-    		</div>
-    		<div class="col-sm-4">
-        		<p id="moi">
-				Madian AL ABBAS : 23 ans<br/>
-				Étudiant à Télécom École de Management<br/>
-				Master 2 Marketing Digital en alternance<br/>
-				Community Manager pour Orange
-				</p>
-				<p id="social">
-				<a href="https://twitter.com/Madian_Ares?lang=fr" target="_blank"><img id="twitter" src="image/twitter.png"/></a>
-				<a href="https://fr.linkedin.com/pub/madian-al-abbas/a7/70/3aa" target="_blank"><img id="linkedin" src="image/linkedin.png"/></a></p>
-    		</div> <!-- end col-md-1 -->
-     		<div class="col-sm-4">
-     			<img id="telecom" src="image/telecom.jpg"/>
-    		</div>
+		<!-- Navbar Bootstrap -->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu">
+			<div class="container-fluid">
+				<!-- Début du header -->
+				<header>
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Madian Al Abbas</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="#presentation">Présentation</a></li>
+							<li><a href="#experiences">Expérience professionnelle</a></li>
+							<li><a href="#formation">Formation</a></li>
+							<li><a href="#competences">Compétences</a></li>
+							<li><a href="#interet">Centres d'intérêt</a></li>
+							<li><a href="http://www.ares-infos.org/author/madian/" target="_blank">Blog</a></li>
+							<li><a href="cvmadianalabbas.pdf">Curriculum Vitae</a></li>
+							<li><a href="#myModal" data-toggle="modal">Contact</a></li>	
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
+	</nav>
+	<!-- Ancien menu
+	<nav id="menu">
+		<ul>
+			<li><a href="#presentation">Présentation</a></li>
+			<li><a href="#experiences">Expérience professionnelle</a></li>
+			<li><a href="#formation">Formation</a></li>
+			<li><a href="#competences">Compétences</a></li>
+			<li><a href="#interet">Centres d'intérêt</a></li>
+			<li><a href="http://www.ares-infos.org/author/madian/" target="_blank">Blog</a></li>
+			<li><a href="cvmadianalabbas.pdf">Curriculum Vitae</a></li>
+		</ul>
+	</nav>
+	 -->
+</header>
+<div class="container marge">
+	<h1 id="presentation">Presentation</h1>
+	<div class="row row-title">
+		<div class="col-sm-3 centerblock">
+			<img id="photomoi" src="image/madian.jpg"/>
+		</div>
+		<div class="col-sm-4" id="milieu">
+			<p id="moi">
+				Madian AL ABBAS : 23 ans
+				<br/>
+				Étudiant à Télécom École de Management
+				<br/>
+				Master 2 Marketing Digital en alternance
+				<br/>
+				Community Manager pour Orange
+			</p>
+			<p id="social">
+				<a href="https://twitter.com/Madian_Ares?lang=fr" target="_blank"><img id="twitter" src="image/twitter.png"/></a>
+				<a href="https://fr.linkedin.com/pub/madian-al-abbas/a7/70/3aa" target="_blank"><img id="linkedin" src="image/linkedin.png"/></a>
+				<a href="#myModal" data-toggle="modal"><img id="imgcontact" src="image/contact.png"/></a></li>	
+			</p>
+		</div>
+		<!-- end col-md-1 -->
+		<div class="col-sm-4" id="right">
+			<img id="telecom" src="image/telecom.jpg"/>
+		</div>
+	</div>
+	<h1 id="experiences">Expériences</h1>
+	<h2>Septembre 2015 - Actuellement : Community Manager</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Orange France
+				<br/>
+				<br/>
+				Alternance d'un an 
+				<br/>
+				Gestion de la communauté Orange
+				<br/>
+				Mise en place d'un processus d'Ideation
+				<br/>
+				Suivi et remontée Marketing
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="orange" src="image/orange.png"/>
+		</div>
+	</div>
+	<h2>Février 2015 - Août 2015 : Community Manager</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				SNCF INTERCITÉS
+				<br/>
+				<br/>
+				Stage de 6 mois 
+				<br/>
+				Gestion du forum question-réponses
+				<br/>
+				Mise en place d'un Système 
+				<br/>
+				d'information voyageur embarqué (SIVE)
+				<br/>
+				Suivi de l'information voyageurs
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/sncf.png"/>
+		</div>
+	</div>
+	<h2>Mars 2013 - Juin 2013 : Cartographe</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				APR Strasbourg
+				<br/>
+				<br/>
+				CDD de 4 mois 
+				<br/>
+				Mission de cartographie
+				<br/>
+				Publication du 6e cahier de l'APR
+				<br/>
+				Gestion de tableur de donnée statistiques
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/apr.jpg"/>
+		</div>
+	</div>
+	<h2>Octobre 2012 - Février 2013 : Rédacteur WEB</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Eclypsia LLP
+				<br/>
+				<br/>
+				CDD de 5 mois 
+				<br/>
+				Rédaction d'article
+				<br/>
+				Traduction Anglais-Français
+				<br/>
+				Veille sur l'actualité jeux vidéo
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="logoEC" src="image/eclypsia.jpg"/>
+		</div>
+	</div>
+	<h2>Juillet 2011 - Septembre 2012 : Cartographe</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				APR Strasbourg
+				<br/>
+				<br/>
+				Stage de 2 mois puis CDD 1 an
+				<br/>
+				Mission de cartographie aires urbaines
+				<br/>
+				Création de cartes
+				<br/>
+				Utilisation bases INSEE
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/apr.jpg"/>
+		</div>
+	</div>
+	<h2>Mai 2011 - Juin 2011 : Webmaster</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-5">
+			<p>
+				EURL Masquida
+				<br/>
+				<br/>
+				Stage de 2 mois
+				<br/>
+				Création de site web
+				<br/>
+				Mise en place storyteling
+				<br/>
+				Optimisation SEO
+			</p>
+		</div>
+	</div>
+	<h1 id="formation">Formation</h1>
+	<h2>Septembre 2013 - Actuellement : Télécom École de Management</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Majeure Marketing Digital (Master 2)
+				<br/>
+				<br/>
+				Programme grande école 
+				<br/>
+				Master 2 en alternance
+				<br/>
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="logotelecom" src="image/telecom.jpg"/>
+		</div>
+	</div>
+	<h2>Septembre 2014 - Janvier 2015 : Échange Erasmus Hoschule Worms</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Master International Business Administration
+				<br/>
+				<br/>
+				Échange Erasmus en Allemagne
+				<br/>
+				Pratique de l'Allemand
+				<br/>
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/worms.png"/>
+		</div>
+	</div>
+	<h2>Septembre 2010 - Juin 2013 : Faculté de Sciences Économiques et de Gestion</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Licence d'Économie-Gestion parcours Gestion
+				<br/>
+				<br/>
+				Université de Strasbourg
+				<br/>
+				Comptabilité, Finance, Gestion
+				<br/>
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/fseg.jpg"/>
+		</div>
+	</div>
+	<h2>Septembre 2006 - Juin 2009 : Lycée Fustel de Coulanges</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-5">
+			<p>
+				Baccalauréat Scientifique
+				<br/>
+				<br/>
+				Mention Bien, et Européenne
+				<br/>
+				Académie de Strasbourg
+				<br/>
+			</p>
+		</div>
+	</div>
+	<h1 id="competences">Compétences</h1>
+	<h2>Langues</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Anglais Courant lu écrit et parlé (TOEIC : 950)
+				<br/>
+				Allemand Intermédiaire lu écrit et parlé
+				<br/>
+				Arabe Parlé
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/langue.png"/>
+		</div>
+	</div>
+	<h2>Office</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Word, travail avec les styles, chartage de document
+				<br/>
+				Excel, maitrise des principales fonctions d’excel
+				<br/>
+				Power Point, création de présentations, travail sur charte préexistante
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/office.png"/>
+		</div>
+	</div>
+	<h2>Programmation</h2>
+	<div class="row">
+		<div class="col-sm-3 col-sm-offset-3">
+			<p>
+				Programmation HTML et CSS, création site Web
+				<br/>
+				Programmation en Ti-Basic
+				<br/>
+				Notions en visual basic appliqué à Excel
+				<br/>
+				Notions en base de donnée SQL
+			</p>
+		</div>
+		<div class="col-sm-offset-1 col-sm-5">
+			<img id="sncf" src="image/prog.png"/>
+		</div>
+	</div>
+	<h1 id="interet">Centres d'intérêt</h1>
+	<div class="row centreint">
+		<div class="col-sm-offset-4 col-sm-1">
+			<img id="photodiv" src="image/poker.png"/>
+		</div>
+		<div class="col-sm-offset-2 col-sm-2">
+			<p>
+				Joueur de poker amateur
+			</p>
+		</div>
+	</div>
 
+	<div class="row centreint">
+		<div class="col-sm-offset-4 col-sm-1">
+			<img id="photodivl" src="image/jeux video.png"/>
+		</div>
+		<div class="col-sm-offset-2 col-sm-2">
+			<p>
+				Pratique du jeu vidéo: SWTOR, Fifa, Football Manager, The Witcher 3
+			</p>
+		</div>
+	</div>
+	<div class="row centreint">
+		<div class="col-sm-offset-4 col-sm-1">
+			<img id="photodivl" src="image/echecs.png"/>
+		</div>
+		<div class="col-sm-offset-2 col-sm-2">
+			<p>
+				Pratique des échecs au niveau amateur.
+			</p>
+		</div>
+	</div>
+	<footer>
+		<p>
+			© Al Abbas Madian 2015
+		</p>
+	</footer>
+	<!--Define a container-->
 
-		<section id="presentation">
-<div>
-			<table id="cadre" CELLPADDING="10">
-  				 <tr>
-      				<td>
-         				<img id="photomoi" src="image/madian.jpg"/>
-      				</td>
-      				<td>
-          				<p id="moi">
-						Madian AL ABBAS : 23 ans<br/>
-						Étudiant à Télécom École de Management<br/>
-						Master 2 Marketing Digital en alternance<br/>
-						Community Manager pour Orange
-						</p>
-						<p id="social">
-						<a href="https://twitter.com/Madian_Ares?lang=fr" target="_blank"><img id="twitter" src="image/twitter.png"/></a>
-						<a href="https://fr.linkedin.com/pub/madian-al-abbas/a7/70/3aa" target="_blank"><img id="linkedin" src="image/linkedin.png"/></a></p>
-					</td>
-
-					<td>
-						<img id="telecom" src="image/telecom.jpg"/>
-					</td>
-   				</tr>
-			</table>
-			
-		
-
-
-		</section>
-<section id="experiences">
-			
-		<h1 class="title">Expériences</h1>
-		<h2>Septembre 2015 - Actuellement : Community Manager</h2></div>
-		<table id="droite"cellpadding="10">
-			<tr>
-			<td>	
-				<p>Orange France<br /><br />
-				Alternance d'un an <br/>
-				Gestion de la communauté Orange<br/>
-				Mise en place d'un processus d'Ideation<br/>
-				Suivi et remontée Marketing</p>
-			</td>
-			<td>
-
-			<img id="orange" src="image/orange.png"/></td></tr></table>
-
-			<h2>Février 2015 - Août 2015 : Community Manager</h2>
-		<table id="gauche" cellpadding="10">
-			<tr>
-			<td>
-
-			<img id="sncf" src="image/sncf.png"/></td>
-			<td>	
-				<p>SNCF INTERCITÉS<br /><br />
-				Stage de 6 mois <br/>
-				Gestion du forum question-réponses<br/>
-				Mise en place d'un Système <br/>d'information voyageur embarqué (SIVE)<br/>
-				Suivi de l'information voyageurs</p>
-			</td>
-			</tr></table>
-<h2>Mars 2013 - Juin 2013 : Cartographe</h2>
-					<table id="droite" cellpadding="10">
-			<tr><td>
-
-				<p>APR Strasbourg<br /><br />
-				CDD de 4 mois <br/>
-				Mission de cartographie<br/>
-				Publication du 6e cahier de l'APR<br/>
-				Gestion de tableur de donnée statistiques</p>
-			</td>
-						<td>
-
-			<img id="sncf" src="image/apr.jpg"/></td></tr></table>
-
-						
-			<h2>Octobre 2012 - Février 2013 : Rédacteur WEB</h2>
-					<table id="gauche" cellpadding="10">
-			<tr>
-			<td>
-			<img id="logoEC" src="image/eclypsia.jpg"/></td>
-			<td>	
-				<p>Eclypsia LLP<br /><br />
-				CDD de 5 mois <br/>
-				Rédaction d'article<br/>
-				Traduction Anglais-Français<br/>
-				Veille sur l'actualité jeux vidéo</p>
-			</td>
-			</tr></table>
-
-			<h2>Juillet 2011 - Septembre 2012 : Cartographe</h2>
-					<table id="droite" cellpadding="10">
-			<tr>
-			
-			<td>	
-				<p>APR Strasbourg<br /><br />
-				Stage de 2 mois puis CDD 1 an<br/>
-				Mission de cartographie aires urbaines<br/>
-				Création de cartes<br/>
-				Utilisation bases INSEE</p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/apr.jpg"/></td></tr>
-			</tr></table>
-
-			<h2>Mai 2011 - Juin 2011 : Webmaster</h2>
-					<table id="gauche" cellpadding="10">
-			<tr>
-			<td>
-			</td>
-			<td>	
-				<p>EURL Masquida<br /><br />
-				Stage de 2 mois<br/>
-				Création de site web<br/>
-				Mise en place storyteling<br/>
-				Optimisation SEO</p>
-			</td>
-			</tr></table>
-		</section>
-		<section id="formation">
-			<h1>Formation</h1>
-		<h2>Septembre 2013 - Actuellement : Télécom École de Management</h2>
-		<table cellpadding="10">
-			<tr>
-			<td>	
-				<p>Majeure Marketing Digital (Master 2)<br /><br />
-				Programme grande école <br/>
-				Master 2 en alternance<br/></p>
-			</td>
-			<td>
-
-			<img id="logotelecom" src="image/telecom.jpg"/></td></tr></table>
-
-					<h2>Septembre 2014 - Janvier 2015 : Échange Erasmus Hoschule Worms</h2>
-		<table cellpadding="10">
-			<tr>
-			<td>	
-				<p>Master International Business Administration<br /><br />
-				Échange Erasmus en Allemagne<br/>
-				Pratique de l'Allemand<br/></p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/worms.png"/></td></tr></table>
-
-	
-
-		<h2>Septembre 2010 - Juin 2013 : Faculté de Sciences Économiques et de Gestion</h2>
-		<table cellpadding="10">
-			<tr>
-			<td>	
-				<p>Licence d'Économie-Gestion parcours Gestion<br /><br />
-				Université de Strasbourg<br/>
-				Comptabilité, Finance, Gestion<br/></p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/fseg.jpg"/></td></tr></table>
-
-
-		<h2>Septembre 2006 - Juin 2009 : Lycée Fustel de Coulanges</h2>
-		<table cellpadding="10">
-			<tr>
-			<td>	
-				<p>Baccalauréat Scientifique<br /><br />
-				Mention Bien, et Européenne<br/>
-				Académie de Strasbourg<br/></p>
-			</td>
-			</tr></table>
-
-		</section>
-		<section id="competences">
-			<h1>Compétences</h1>
-
-			<h2>Langues</h2>
-<table cellpadding="10">
-			<tr>
-			<td>	
-			<p>Anglais Courant lu écrit et parlé (TOEIC : 950)<br/>
-			Allemand Intermédiaire lu écrit et parlé<br/>
-			Arabe Parlé</p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/langue.png"/></td></tr></table>
-
-						<h2>Office</h2>
-<table cellpadding="10">
-			<tr>
-			<td>	
-			<p>Anglais Courant lu écrit et parlé (TOEIC : 950)<br/>
-			Allemand Intermédiaire lu écrit et parlé<br/>
-			Arabe Parlé</p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/office.png"/></td></tr></table>
-
-						<h2>Programmation</h2>
-			<table cellpadding="10">
-			<tr>
-			<td>	
-			<p>Programmation HTML et CSS, création site Web<br/>
-			Programmation en Ti-Basic<br/>
-			Notions en visual basic appliqué à Excel<br/>
-			Notions en base de donnée SQL</p>
-			</td>
-			<td>
-
-			<img id="sncf" src="image/prog.png"/></td></tr></table>
-		
-
-
-		</section>
-		<section id="interet">
-			<h1>Centres d'intérêt</h1>
-	
-		</section>
-
-		<footer>
-				<p>© Al Abbas Madian 2015</p>
-		</footer>
-
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	</body>
+	 <!-- Modal -->
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Formulaire de contact</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" name="commentform" method="post" action="send_form_email.php">
+    <div class="form-group">
+        <label class="control-label col-md-4" for="first_name">Prénom</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Prénom"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="last_name">Nom</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Nom"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="email">Adresse Email</label>
+        <div class="col-md-6 input-group">
+        <span class="input-group-addon">@</span>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Adresse email"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-4" for="comment">Question ou commentaire</label>
+        <div class="col-md-6">
+            <textarea rows="6" class="form-control" id="comments" name="comments" placeholder="Votre question ou commentaire"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-6">
+            <button type="submit" value="Submit" class="btn btn-custom pull-right">Envoyer</button>
+        </div>
+    </div>
+</form>
+        </div><!-- End of Modal body -->
+        </div><!-- End of Modal content -->
+        </div><!-- End of Modal dialog -->
+    </div><!-- End of Modal -->
+</div>
+<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="global.js"></script>
+</body>
 </html>
+
