@@ -1,9 +1,13 @@
 
+@font-face
+{
+	font-family: "Caviar Dreams";
+	src: url('font/CaviarDreams.ttf');
+}
+
 header
 {
 	font-family:  Caviar Dreams;
-	Oswald;
-	Museo Sans;
 	font-weight:bold;
 	font-size: 16px;
 	left:0;
@@ -34,8 +38,9 @@ h1
 	color:white;
 }
 
-.navbar-custom {
-    color: #FFFFFF;
+.navbar-custom
+{
+	color: #FFFFFF;
 }
 
 a
@@ -44,12 +49,11 @@ a
 	color:white;
 }
 
-
 #menu ul li
 {
 	list-style-type:none;
 	display:inline;
-	font-family:  Caviar Dreams, Oswald, Museo Sans;
+	font-family:  "Caviar Dreams", Oswald, Museo Sans;
 }
 
 *
@@ -156,21 +160,6 @@ img
 	margin-right:auto;
 }
 
-#gauche
-{
-	margin-right:400px;
-}
-
-#droite
-{
-	margin-left:400px;
-}
-
-#apr
-{
-	margin-right:400px;
-}
-
 #logoEC
 {
 	width:100px;
@@ -206,21 +195,110 @@ h1
 	max-width: 300px;
 }
 
-#photodiv{
+#photodiv
+{
 	width: 150px;
 	height: 150px;
 }
 
-#photodivl{
+#photodivl
+{
 	width: 200px;
 	height: 117px;
 }
 
-.centreint{
+.centreint
+{
 	padding-top: 5%;
 }
 
-.input-group[class*="col-"] {
-    padding-right: 15px;
-    padding-left: 15px;
-    }
+.input-group[class*="col-"]
+{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+footer
+{
+	padding-top: 80px;
+}
+
+@media (max-width:600px) {
+	#photomoi
+	{
+		width: 70px;
+		height: 70px;
+	}
+
+	#telecom
+	{
+		width:70px;
+		height:70px;
+	}
+
+	#orange
+	{
+		width:50px;
+		height:50px;
+	}
+
+	#sncf
+	{
+		width:75px;
+		height:40px;
+	}
+
+	#twitter
+	{
+		height: 20px;
+		width: 20px;
+	}
+
+	#linkedin
+	{
+		height: 20px;
+		width: 20px;
+	}
+
+	#imgcontact
+	{
+		height: 22px;
+		width: 27px;
+	}
+
+	#logoEC
+	{
+		width:50px;
+		height:50px;
+	}
+
+	#logotelecom
+	{
+		width:50px;
+		height:50px;
+	}
+
+	h1
+	{
+		font-size:14px;
+	}
+
+	h2
+	{
+		font-size:12px;
+	}
+
+	h3
+	{
+		font-size:10px;
+	}
+
+	p
+	{
+		font-size:10px;
+	}
+}
+
+@media (max-width:px) 320 {
+	
+}
